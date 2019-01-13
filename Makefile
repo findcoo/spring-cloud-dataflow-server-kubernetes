@@ -1,4 +1,4 @@
-install: ## spring cloud data flow를 런칭합니다. (ENV 변수가 필요합니다. 기본값: local)
+install: ## spring cloud data flow를 런칭합니다.
 	kubectl create -f src/kubernetes/kafka/
 	kubectl create -f src/kubernetes/mysql/
 	kubectl create -f src/kubernetes/redis/
